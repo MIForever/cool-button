@@ -1,0 +1,24 @@
+body {
+    background-color: #242323;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #120075ae 0%, #a9009e 100%);
+    border-radius: 40px;
+    color: #fff;
+    font: 1.125rem 'Verdana', Arial, sans-serif;
+    height: 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 264px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    transition: color .5s ease-in-out;
+}
+
+.btn:hover {
+    color: rgb(255, 38, 0);
+}
